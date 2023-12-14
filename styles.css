@@ -1,0 +1,16 @@
+:root {
+    --heading-font: font-family: 'Work Sans', sans-serif;
+    --secondary-font: font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+font-family: var(--heading-font);
+font-style: normal;
+font-weight: 700;
+font-size: 96px;
+line-height: 144px;
+}
+
+p {
+    font-family: var(--secondary-font);
+}
