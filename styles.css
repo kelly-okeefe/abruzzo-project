@@ -1,6 +1,7 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
+
 .container {
     max-width: 1400px;
     margin: 0 auto;
@@ -42,8 +43,12 @@ body {
 }
 
 .embed {
-    width: 185px;
+    width: 100%;
     aspect-ratio: 1/1;
+}
+
+.instagram-embeds {
+    margin: 30px 0;
 }
 
 .card-body {
@@ -267,5 +272,10 @@ footer a {
 
     .card-footer embed {
         aspect-ratio: 16/9;
+    }
+
+    blockquote {
+        margin: 0 auto;
+        display: block;
     }
 }
