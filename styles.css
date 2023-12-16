@@ -8,13 +8,25 @@ body {
 
 .grid {
     display: grid;
-    grid-template-columns: 1fr 2fr 2fr;
     grid-gap: 64px;
+}
+
+.img-responsive {
+    max-width: 100%;
+    max-height: 100%;
+}
+.grid-2-columns {
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-3-columns-first-narrow {
+    grid-template-columns: 1fr 2fr 2fr;
 }
 
 section {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 100px 0;
 }
 
 header{
@@ -63,6 +75,45 @@ header a {
     text-decoration: none;
     text-transform: uppercase;
     background-color: white;
+}
+
+main {
+    background-color: white;
+}
+
+main img {
+    width: 570px;
+    height: 570px;
+    border-radius: 3px;
+}
+
+
+main h2 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 5px;
+    color: #0E1717;
+    opacity: 0.3;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+main h3 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.5;
+    color: #0E1717;
+    margin: 0;
+}
+
+main p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #0E1717;
+    opacity: 0.8;
 }
 
 footer {
@@ -120,5 +171,14 @@ footer a {
 
     header h3 {
         font-size: 12px;
+    }
+
+    .grid {
+        grid-template-columns: 1fr;
+        grid-gap: 32px;
+    }
+
+    section {
+        padding: 30px;
     }
 }
