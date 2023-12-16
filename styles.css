@@ -118,8 +118,8 @@ main p {
 
 footer {
     color: white;
-    background-image: linear-gradient(rgba(31, 34, 8, 0.9), rgba(31, 34, 8, 0.9)), 
-    url("../images/pescocostanzo.jpg");
+    background-image: linear-gradient(rgba(31, 34, 8, 0.8), rgba(31, 34, 8, 0.8)), 
+    url("../images/pescocostanzofooter.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
