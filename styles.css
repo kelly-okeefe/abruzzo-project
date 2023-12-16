@@ -119,10 +119,9 @@ main p {
 footer {
     color: white;
     background-image: linear-gradient(rgba(31, 34, 8, 0.9), rgba(31, 34, 8, 0.9)), 
-    url("../images/pescocostanzo footer.jpg");
+    url("../images/pescocostanzo.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 100px 0;
 }
 
 footer h3 {
