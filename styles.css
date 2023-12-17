@@ -106,6 +106,10 @@ section.secondary h2,h3{
     text-align: center;
 }
 
+.gallery h2 {
+    text-align: center;
+}
+
 header{
     background-image: linear-gradient(rgba(180, 115, 115, 0.4), rgba(0,0,0,0.5)), url('../images/maiella hero.jpg');
     background-repeat: no-repeat;
