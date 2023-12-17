@@ -281,6 +281,14 @@ footer a {
         padding: 30px;
     }
 
+    .secondary h3 {
+        font-size: 36px;
+    }
+
+    .gallery h3 {
+        font-size: 36px;
+    }
+
     .card-header img {
         display: none;
     }
