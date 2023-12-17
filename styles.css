@@ -102,7 +102,7 @@ section.secondary {
     background-color: #f8f8f8;
 }
 
-section.secondary h2,h3{
+.secondary h2,h3 {
     text-align: center;
 }
 
