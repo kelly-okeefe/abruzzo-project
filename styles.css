@@ -264,7 +264,7 @@ footer a {
     .container {
         overflow-x: hidden;
     }
-    
+
     header {
         padding: 60px 0;
     }
@@ -291,11 +291,11 @@ footer a {
     }
 
     .secondary h3 {
-        font-size: 36px;
+        font-size: 32px;
     }
 
     .gallery h3 {
-        font-size: 36px;
+        font-size: 32px;
     }
 
     .card-header img {
